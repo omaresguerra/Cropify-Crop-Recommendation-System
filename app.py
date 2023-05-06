@@ -1,7 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import numpy as np
 import pandas as pd
 from PIL import Image
+from sklearn.inspection import permutation_importance
 from joblib import Parallel, delayed
 import joblib
 
@@ -19,7 +21,7 @@ background-color:#FCFCFC;
 
 }}
 [data-testid="stSidebar"] {{
-background-color:#61B136;
+background-color:#61B136;s
 
 }}
 [data-testid="stHeader"] {{
